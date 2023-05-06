@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width: 600px) {
+
+  /* //For Tablets */
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* //For Laptops */
+
+}
+
+@media screen and (max-width: 992px) {
+
+  /* //For Large Laptops */
+  #bing-carousel-image {
+    left: 0px;
+  }
+
+  #bing-text {
+    left: 54px;
+    top: 57px;
+  }
+
+  .lg-island-cards {
+    max-width: 300px;
+  }
+
+  #xbox-ad img {
+    max-width: 1250px;
+  }
+
+  #xbox-ad-text {
+    top: 1505px;
+    left: 180px;
+  }
+
+  #for-business {
+    top: 1950px;
+  }
+
+  .business-islands {
+    max-width: 300px;
+  }
+
+  #footer-carousel-text {
+    left: 183px;
+    top: 2600px;
+  }
+
+  #footer-carousel img {
+    max-width: 1220px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+
+  #bing-carousel-image {
+    left: 0px;
+  }
+
+  #bing-text {
+    left: 54px;
+    top: 57px;
+  }
+
+  .lg-island-cards {
+    max-width: 300px;
+  }
+
+  #xbox-ad img {
+    max-width: 1250px;
+  }
+
+  #xbox-ad-text {
+    top: 1505px;
+    left: 180px;
+  }
+
+  #for-business {
+    top: 1950px;
+  }
+
+  .business-islands {
+    max-width: 300px;
+  }
+
+  #footer-carousel-text {
+    left: 183px;
+    top: 2600px;
+  }
+
+  #footer-carousel img {
+    max-width: 1220px;
+  }
+
+}
+
+@media screen and (min-width: 2560px) {
+
+  /* For 2k Screens */
+  #bing-carousel-image {
+    left: 326px;
+  }
+
+  #bing-text {
+    left: 554px;
+    top: 152px;
+  }
+
+  #xbox-ad-text {
+    left: 640px;
+  }
+
+  #footer-carousel-text {
+    left: 650px;
+  }
+}
+
+@media screen and (min-width: 3840px) {
+
+  /* //For 4K Displays (Ultra HD) */
+  #bing-carousel-image {
+    left: 964px;
+  }
+
+  #bing-text {
+    left: 1202px;
+    top: 152px;
+  }
+
+  #xbox-ad-text {
+    left: 1298px;
+  }
+
+  #footer-carousel-text {
+    left: 1315px;
+  }
+}
